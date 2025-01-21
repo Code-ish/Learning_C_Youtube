@@ -170,7 +170,7 @@ main(){
 		send(fd, input, MAX_BUFFER, 0);
 
 	}	
-	
+	close(fd); // CLOSE the socket after use
 	return 0;
 }
 	
